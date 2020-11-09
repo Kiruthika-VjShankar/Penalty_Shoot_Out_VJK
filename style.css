@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Monteserrat",cursive;
+}
+body{
+    background: #660000;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+}
+
+.container{
+    background: #ffb3b3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    align-self: center;
+}
+
+.row{
+    display: flex;    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container >.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    border: 4px solid #1a0000;
+}
+
+.name{
+    display: flex;
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.score{
+    font-size: xx-large;
+}
+
+.score >.span{
+    margin: 0 5px;
+}
+
+.row-round-runs{
+    display: flex;
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color : red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .green_dot {
+    height: 25px;
+    width: 25px;
+    background-color : green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
